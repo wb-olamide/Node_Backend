@@ -30,6 +30,10 @@ app.use("/api/users", userRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/cart", cartRouter);
 
+app.get("/", () => {
+  res.status(200).json("welome to my website");
+});
+
 // app.options("*", cors());
 
 // const products = [
