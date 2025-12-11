@@ -30,7 +30,7 @@ app.use("/api/users", userRouter);
 app.use("/api/auth", authRouter);
 app.use("/api/cart", cartRouter);
 
-app.get("/", () => {
+app.get("/", (req, res) => {
   res.status(200).json("welome to my website");
 });
 
