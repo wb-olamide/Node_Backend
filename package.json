@@ -4,7 +4,8 @@
   "description": "our first node class",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "author": "wb olamide",
   "license": "ISC",
